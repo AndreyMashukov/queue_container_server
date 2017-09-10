@@ -1,7 +1,8 @@
 {
     "name": "andrey-mashukov/queue-container-server",
     "description": "Queue server for container",
-    "keywords": ["framework", "laravel", "queue_container"],
+    "homepage": "https://github.com/AndreyMashukov/queue_container_server",
+    "keywords": ["central data storage for container", "data storage", "queue_container"],
     "license": "MIT",
     "type": "project",
     "authors": [
