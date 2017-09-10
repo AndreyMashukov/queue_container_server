@@ -1,0 +1,20 @@
+.adsense{padding:10px;}
+form{box-sizing:border-box;margin:0;padding:10px 0;}
+.box-form{box-sizing:border-box;padding:5px 20px;}
+.type-selector{box-sizing:border-box;width:100%;text-align:center;}
+.menu{background:rgba(80, 150, 220, 1);height:50px;}
+.white{color:#FFFFFF;}
+.logo{height:100px;}
+.middle-span{position:absolute;top:30px;font-size:34px;font-family:'Oswald';color:#FFFFFF;text-shadow:1px 1px 2px #000, 0 0 1em #000;}
+.ad-image-block{overflow:hidden;width:100%;height:210px;border-radius:2px;opacity:.9;}
+.ad-image-block img{width:105%;}
+.item{margin:15px 0;}
+.item h4{color:#FFFFFF;margin:2px 0;padding:5px;padding-bottom:5px;background:rgba(10, 100, 240, .4);border-radius:2px;text-shadow:1px 1px 2px #000000, 1px 0 1em #000000;}
+.nodec{color:#333333;}
+.nodec:hover{text-decoration:none;}
+.dark{padding:10px;background:#444444;color:#FFFFFF;}
+.carousel-inner img{width:100%;}
+.carousel{width:100%;margin:auto;}
+.map{height:400px;width:100%;margin:20px auto;border-radius:10px;}
+#container, #sliders{min-width:310px;max-width:800px;margin:0 auto;}
+#container{height:400px;}

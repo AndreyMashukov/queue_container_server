@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="5" assertions="164" failures="0" errors="0" time="25.218555">
+    <testsuite name="Feature Tests" tests="1" assertions="1" failures="0" errors="0" time="4.462008">
+      <testsuite name="Tests\Feature\ExampleTest" file="/home/andrey/git/queue_container_server/tests/Feature/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="4.462008">
+        <testcase name="testBasicTest" class="Tests\Feature\ExampleTest" file="/home/andrey/git/queue_container_server/tests/Feature/ExampleTest.php" line="17" assertions="1" time="4.462008"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Browser Tests" tests="3" assertions="162" failures="0" errors="0" time="17.586738">
+      <testsuite name="Tests\Browser\ApiTest" file="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" tests="3" assertions="162" failures="0" errors="0" time="17.586738">
+        <testcase name="testSiteShouldAddElementToQueueByApi" class="Tests\Browser\ApiTest" file="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" line="43" assertions="70" time="14.175404"/>
+        <testcase name="testSiteShouldRemoveElementFromQueueByApi" class="Tests\Browser\ApiTest" file="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" line="107" assertions="81" time="2.273318"/>
+        <testcase name="testSiteShouldAllowToGetElementsOrderListByContainerNameByApi" class="Tests\Browser\ApiTest" file="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" line="191" assertions="11" time="1.138016"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Unit Tests" tests="1" assertions="1" failures="0" errors="0" time="3.169809">
+      <testsuite name="Tests\Unit\ExampleTest" file="/home/andrey/git/queue_container_server/tests/Unit/ExampleTest.php" tests="1" assertions="1" failures="0" errors="0" time="3.169809">
+        <testcase name="testBasicTest" class="Tests\Unit\ExampleTest" file="/home/andrey/git/queue_container_server/tests/Unit/ExampleTest.php" line="16" assertions="1" time="3.169809"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

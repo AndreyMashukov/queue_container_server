@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+  <duplication lines="51" tokens="137">
+    <file path="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" line="45"/>
+    <file path="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php" line="109"/>
+    <codefragment>        $readablename  = "any_name_of_container";
+        $containername = md5($readablename);
+        $datas         = [];
+
+        for ($i = 1; $i &lt;= 10; $i++)
+            {
+            $datas[] = [
+                "data"           =&gt; "text - any text here" . $i,
+                "container_name" =&gt; $readablename,
+                "hash"           =&gt; "hash",
+            ];
+            } //end for
+
+        foreach ($datas as $data)
+            {
+            $response = $this-&gt;call(
+                "POST", "/api/queue/add.json", [
+                "key"            =&gt; "test_api_key",
+                "data"           =&gt; $data["data"],
+                "container_name" =&gt; $data["container_name"],
+            ], [], []);
+
+            $test = new TestResponse($response);
+
+            $expected = [
+                "status"  =&gt; "ok",
+                "message" =&gt; "Added to queue",
+            ];
+
+            $test-&gt;assertJson($expected);
+            } //end foreach
+
+        $i = 0;
+        $order = Order::all();
+        foreach ($order as $item)
+            {
+            $datas[$i]["hash"] = $item-&gt;hash;
+            $this-&gt;assertEquals($containername, $item-&gt;container_name);
+            $this-&gt;assertEquals($readablename, $item-&gt;readable_container_name);
+            $this-&gt;assertRegExp("/[0-9a-zA-Z]{32}/ui", $item-&gt;hash);
+            $this-&gt;assertRegExp("/[0-9a-zA-Z]{32}/ui", $item-&gt;container_name);
+            $i++;
+            } //end foreach
+
+        $i = 0;
+        $data  = Data::all();
+        foreach ($data as $item)
+            {
+            $this-&gt;assertEquals($datas[$i]["data"], $item-&gt;data);
+            $this-&gt;assertEquals($datas[$i]["hash"], $item-&gt;hash);
+            $i++;
+</codefragment>
+  </duplication>
+</pmd-cpd>

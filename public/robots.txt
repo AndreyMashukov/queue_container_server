@@ -1,0 +1,4 @@
+Sitemap: http://agentzilla.ru/sitemap_index.xml
+Host: agentzilla.ru
+User-agent: *
+Disallow:

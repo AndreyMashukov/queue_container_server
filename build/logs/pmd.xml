@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@project.version@" timestamp="2017-09-10T17:18:39+00:00">
+  <file name="/home/andrey/git/queue_container_server/app/Exceptions/Handler.php">
+    <violation beginline="57" endline="57" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$exception'.
+    </violation>
+  </file>
+  <file name="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php">
+    <violation beginline="194" endline="194" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$containername'.
+    </violation>
+  </file>
+  <file name="/home/andrey/git/queue_container_server/tests/BrowserKitTestCase.php">
+    <violation beginline="40" endline="40" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_files'.
+    </violation>
+  </file>
+</pmd>

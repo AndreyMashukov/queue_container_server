@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="1.4.5">
+ <file name="/home/andrey/git/queue_container_server/app/Console/Commands/SmsRun.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Console/Kernel.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Data.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Exceptions/Handler.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/ApiController.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/Auth/ForgotPasswordController.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/Auth/LoginController.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/Auth/RegisterController.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/Auth/ResetPasswordController.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Controllers/Controller.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Kernel.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Middleware/EncryptCookies.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Middleware/RedirectIfAuthenticated.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Middleware/TrimStrings.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Http/Middleware/VerifyCsrfToken.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Order.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Providers/AppServiceProvider.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Providers/AuthServiceProvider.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Providers/BroadcastServiceProvider.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Providers/EventServiceProvider.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/app/Providers/RouteServiceProvider.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/bootstrap/app.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/bootstrap/autoload.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/app.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/auth.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/broadcasting.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/cache.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/database.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/filesystems.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/mail.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/queue.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/services.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/session.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/config/view.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/database/factories/ModelFactory.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/database/migrations/2017_03_03_151621_create_data_table.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/database/migrations/2017_03_03_151621_create_order_table.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/database/seeds/DatabaseSeeder.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/css/Raleway.css">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/css/app.css">
+  <error line="1" column="1" severity="warning" message="File appears to be minified and cannot be processed" source="Internal.Tokenizer.Exception"/>
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/css/style.css">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/index.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/js/analytics.js">
+  <error line="1" column="1" severity="warning" message="File appears to be minified and cannot be processed" source="Internal.Tokenizer.Exception"/>
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/js/app.js">
+  <error line="1" column="1" severity="warning" message="File appears to be minified and cannot be processed" source="Internal.Tokenizer.Exception"/>
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/js/bootstrap.js">
+  <error line="1" column="1" severity="warning" message="File appears to be minified and cannot be processed" source="Internal.Tokenizer.Exception"/>
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/js/jquery/scripts.js">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/public/js/jquery/uvcharts.js">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/assets/js/app.js">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/assets/js/bootstrap.js">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/lang/en/auth.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/lang/en/pagination.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/lang/en/passwords.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/lang/en/validation.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/views/layouts/analitics.blade.php">
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/views/layouts/footer.blade.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/views/layouts/header.blade.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/views/layouts/menu.blade.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/resources/views/main.blade.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/routes/api.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/routes/channels.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/routes/console.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/routes/web.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/server.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/264571e454714b1d2c072cfc77ba147a8acd77ec.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/36cb149930d9a099925ae53aa23a5a21b194927d.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/608e23940e4316521a6528c3252f3e3d5bf8c61d.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/642c062c141fd14d725b3014bac4c5fc4922157f.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/b60c45b32dc47e305bbb149d1b1cf548c050bf8a.php">
+  <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/storage/framework/views/f716c7921459f73bfec10f77813ce903b6939a17.php">
+  <error line="1" column="1" severity="error" message="PHP files must only contain PHP code" source="unknownSniff.Found"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/Browser/ApiTest.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/BrowserKitTestCase.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/CreatesApplication.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/Feature/ExampleTest.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/TestCase.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/tests/Unit/ExampleTest.php">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+ <file name="/home/andrey/git/queue_container_server/webpack.mix.js">
+  <error line="1" column="1" severity="error" message="An error occurred during processing; checking has been aborted. The error message was: Tab width cannot be 0" source="unknownSniff"/>
+ </file>
+</checkstyle>
