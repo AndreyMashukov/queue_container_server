@@ -20,3 +20,5 @@ Route::post("/api/queue/add.json", ["uses" => "ApiController@add"]);
 Route::post("/api/queue/del.json", ["uses" => "ApiController@del"]);
 
 Route::post("/api/queue/order/get.json", ["uses" => "ApiController@getOrder"]);
+
+Route::post("/api/queue/element/get.json", ["uses" => "ApiController@getElement"]);

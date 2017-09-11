@@ -245,6 +245,83 @@ class ApiTest extends BrowserKitTestCase
 	    } //end testSiteShouldAllowToGetElementsOrderListByContainerNameByApi()
 
 
+	/**
+	 * Site should allow to get element by id
+	 *
+	 * @return void
+	 */
+
+	public function testSiteShouldAllowToGetElementById()
+	    {
+		$readablename  = "any_name_of_container";
+		$containername = md5($readablename);
+		$datas         = [];
+
+		for ($i = 1; $i <= 10; $i++)
+		    {
+			$datas[] = [
+			    "data"           => "text - any text here" . $i,
+			    "container_name" => $readablename,
+			    "hash"           => "hash",
+			];
+		    } //end for
+
+		foreach ($datas as $data)
+		    {
+			$response = $this->call(
+			    "POST", "/api/queue/add.json", [
+				"key"            => "test_api_key",
+				"data"           => $data["data"],
+				"container_name" => $data["container_name"],
+			], [], []);
+
+			$test = new TestResponse($response);
+
+			$expected = [
+			    "status"  => "ok",
+			    "message" => "Added to queue",
+			];
+
+			$test->assertJson($expected);
+		    } //end foreach
+
+		$expected = [];
+		$order    = Order::all();
+		foreach ($order as $item)
+		    {
+			$expected[] = [
+			    "hash"                    => $item->hash,
+			    "container_name"          => $item->container_name,
+			    "readable_container_name" => $item->readable_container_name,
+			];
+		    } //end foreach
+
+		$response = $this->call(
+		    "POST", "/api/queue/order/get.json", [
+			"key"            => "test_api_key",
+			"container_name" => $readablename,
+		], [], []);
+
+		$test = new TestResponse($response);
+
+		$test->assertJson($expected);
+
+		$response = $this->call(
+		    "POST", "/api/queue/element/get.json", [
+			"key"  => "test_api_key",
+			"hash" => $order[1]->hash,
+		], [], []);
+
+		$expected = [
+		    "status" => "ok",
+		    "data"   => $datas[1]["data"],
+		];
+
+		$test = new TestResponse($response);
+		$test->assertJson($expected);
+	    } //end testSiteShouldAllowToGetElementById()
+
+
     } //end class
 
 ?>

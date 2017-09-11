@@ -130,6 +130,48 @@ class ApiController extends Controller
 	    } //end getOrder()
 
 
+	/**
+	 * Get element by hash
+	 *
+	 * @param Request $request Request data
+	 *
+	 * @return json response
+	 */
+
+	public function getElement(Request $request)
+	    {
+		$secretKey = env("API_KEY", false);
+		if ($secretKey === $request->get("key"))
+		    {
+			$hash = $request->get("hash");
+
+			$data = Data::where("hash", $hash)->get(["data"]);
+
+			if (count($data) > 0)
+			    {
+				$response = [
+				    "status" => "ok",
+				    "data"   => $data[0]->data,
+				];
+			    }
+			else
+			    {
+				$response = [
+				    "status"  => "fail",
+				    "message" => "No element",
+				];
+			    } //end if
+
+			return response()->json($response);
+		    }
+		else
+		    {
+			return response()->json(["status" => "fail", "message" => "Invalid request"]);
+		    } //end if
+
+	    } //end getElement()
+
+
     } //end class
 
 ?>
